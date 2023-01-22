@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+div.box1 {
+    border: 2px solid green;
+    width: 100px;
+    height: 50px;
+    display: inline-block;
+}
+div.box2 {
+    border: 2px solid green;
+    width: 100px;
+    height: 50px;
+    display: inline-block;
+}
+div.box3 {
+    border: 2px solid green;
+    width: 100px;
+    height: 50px;
+    display: inline-block;
+}
+div.box4 {
+    border: 2px solid green;
+    width: 100px;
+    height: 50px;
+    display: inline-block;
+}div.box5 {
+    border: 2px solid green;
+    width: 100px;
+    height: 50px;
+    display: inline-block;
+}
+div.box6 {
+    border: 2px solid green;
+    width: 100px;
+    height: 50px;
+    display: inline-block;
+}
+
+.right {
+    position: absolute;
+    right: 0px;
+    width: 200px;
+    background-color: orange;
+    padding: 25px 15px 20px 25px;
+}
+.center {
+   margin: auto;
+    width: 200px;
+    background-color: green;
+    padding: 25px 15px 20px 25px;
+}
+.left {
+    position: absolute;
+    left: 0;
+    width: 200px;
+    background-color: green;
+    padding: 25px 15px 20px 25px;
+}
+div.high {
+    background-color: green;
+    color: white;
+    padding: 25px;
+    text-align: center;
+}
+div.high:hover {
+    background-color: blue;
+}
+
+q:lang(no) {
+    quotes: "@" "@";
+}
+
+div.add {
+    color: black;
+}
+div.add::first-letter {
+    color: red;
+    font-size: 70px;
+}
+div.add::selection {
+    cursor: grab;
+}
+div.hey {
+    color: green;
+}
+div.hey::selection {
+    background-color: orange;
+}

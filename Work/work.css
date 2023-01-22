@@ -1,0 +1,23 @@
+ul {
+    list-style-type: none;
+    background-color: rgb(216, 216, 216);
+    width: 200px;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    padding: 8px 0px 8px 16px;
+    display: block;
+    color: black;
+}
+li a.active {
+    background-color: rgb(31, 104, 31);
+    color: white;
+}
+li a:hover:not(.active) {
+    background-color: rgb(96, 95, 95);
+    color: white;
+}

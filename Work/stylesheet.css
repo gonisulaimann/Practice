@@ -1,0 +1,55 @@
+body {
+  background-color: white;
+
+}
+p::first-letter {
+  color: orange;
+}
+.intro {
+  background-color: orange;
+  color: white;
+}
+p.intro::first-letter {
+  color: white;
+}
+p.hello {
+  color: green;
+}
+p.hello::selection {
+  background: yellow;
+  color: red;
+}
+div.hey {
+  color: green;
+}
+div.hey::selection {
+  background-color: orange;
+  color: white;
+}
+div.hey::nth-child(even) {
+  background: blue;
+}
+/**Header two**/
+ul.list {
+  list-style-type: none;
+  text-transform: capitalize;
+  background-color: rgb(204, 203, 203);
+  width: 200px;
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+li a {
+  text-decoration: none;
+  padding: 8px 0px 8px 16px;
+  color: black;
+  display: block;
+}
+li a.active {
+  background-color: rgb(31, 104, 31);
+  color: white;
+}
+li a:hover:not(.active) {
+  background-color: rgb(96, 95, 95);
+  color: white;
+}
