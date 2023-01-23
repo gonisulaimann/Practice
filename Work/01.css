@@ -1,0 +1,24 @@
+ul {
+    text-transform: capitalize;
+    list-style-type: none;
+    font-family: sans-serif;
+    background-color: rgb(41, 41, 41);
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+li {
+    float: left;
+}
+li a {
+    color: white;
+    padding: 14px 16px;
+    display: block;
+    text-decoration: none;
+}
+li .active {
+    background-color: green;
+}
+li a:hover:not(.active) {
+    background-color: black;
+}
