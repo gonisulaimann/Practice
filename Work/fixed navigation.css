@@ -1,0 +1,35 @@
+body {
+    background-color: aliceblue;
+    font-family: sans-serif;
+    margin: 0;
+}
+ul {
+    text-transform: capitalize;
+    font-family: sans-serif;
+    list-style-type: none;
+    background-color: rgb(57, 56, 56);
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+
+}
+li {
+    float: left;
+}
+li a {
+    padding: 14px 16px;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+li a.active {
+    background-color: rgb(42, 155, 42);
+}
+li a:hover:not(.active) {
+    background-color: black;
+    color: white;
+}
+.cap {
+    color: rgb(42, 155, 42);
+}
